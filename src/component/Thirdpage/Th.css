@@ -1,0 +1,24 @@
+p{
+    text-align: left;
+    font-size: 1.5vw;
+    color:rgba(41, 37, 37, 0.904);
+}
+.inb{
+    border:0.1px rgb(121, 121, 238) solid;
+    padding:1vw;
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+}
+.bu{
+    margin-top: 1vw;
+}
+@media all and (max-width:640px){
+    p{
+        font-size: 3vw;
+    }
+}
+@media all and (max-width:440px){
+    p{
+        font-size: 4vw;
+    }
+}

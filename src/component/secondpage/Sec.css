@@ -1,0 +1,28 @@
+.box a{
+    color: rgb(60, 136, 250);
+    font-size: 1.4vw;
+    text-decoration: none;
+    
+}
+.butt{
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+}
+
+.box a:hover{
+    color:rgb(60, 136, 250)
+}
+
+
+@media all and (max-width:650px){
+    .box a {
+        font-size: 3vw;
+    }
+   
+}
+@media all and (max-width:450px){
+    .box a {
+        font-size: 5vw;
+    }
+   
+}

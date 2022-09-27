@@ -1,0 +1,53 @@
+.Boxcont{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:5%;
+}
+.boxin{
+    margin:20px;
+}
+.but{
+    margin-top:1vw;
+}
+.box{
+    margin:1vw;
+    width: 35vw;
+    height:auto;
+    border: 1px rgb(121, 121, 238) solid;
+}
+.box img{
+    margin-top: 4vw;
+    width: 8vw;
+}
+.tex{
+   font-size: 2vw;
+}
+@media all and (max-width:650px){
+   .tex{
+    font-size: 3vw;
+   }
+   .box img{
+    width:20vw;
+   }
+   .box{
+     width: 300px;
+   }
+}
+@media all and (max-width:450px){
+    .tex{
+        font-size: 5vw;
+       }
+    }
+@media all and (max-width:350px){
+    .tex{
+        font-size: 6vw;
+       }
+       .box img{
+        width:23vw;
+       }
+    .box{
+      width: 250px;
+    }
+ }
